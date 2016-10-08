@@ -12,12 +12,14 @@ var myTitle = React.createClass({
   }
 })
 
+var MyTitleFactory = React.createFactory(myTitle)
+ce = React.createElement
+
 var MyFirstComponent = (
   div(null, 
+    MyTitleFactory(null),
     React.createElement(myTitle, null),
-    React.createElement(myTitle, null),
-    React.createElement(myTitle, null),
-    React.createElement(myTitle, null)
+    ce(myTitle, null)
   )
 )
 
