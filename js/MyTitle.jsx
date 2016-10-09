@@ -1,6 +1,6 @@
 const React = require('react')
 const div = React.DOM.div
-const h1 = React.DOM.div
+const h1 = React.DOM.h1
 
 // COMPOSITE COMPONENT
 const MyTitle = React.createClass({
