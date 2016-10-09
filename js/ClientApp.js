@@ -4,8 +4,8 @@ var div = React.DOM.div
 var MyTitle = require('./MyTitle')
 
 var MyTitleFactory = React.createFactory(MyTitle)
-var ce = React.createElement
 var createEl = React.createElement
+var ce = React.createElement
 
 var MyFirstComponent = (
   div(null,
